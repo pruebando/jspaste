@@ -1,3 +1,6 @@
 from publish import *
-a = publish("awa")
-print(GetKey(a))
+from delete import *
+from get import *
+import time
+
+print(publish("😍"*1900000).link)

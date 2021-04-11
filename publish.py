@@ -1,25 +1,25 @@
 from errors import *
-import errors
 from vares import *
+import errors
 import vares
-import requests     
+import requests
 
-
-      class response():
-       response = requests.post(BaseUrl, data=Content)
-       key = json.loads(response)["key"]
+def publish(arguments):
+    if isinstance(arguments, str):
+     Content = f"/*Made With Jspaste.py Created By {Creator}*/\n \n{arguments}"
+     try:
+      class response:
+       response = requests.post(BaseUrl+ "documents", data=Content.encode('utf-8'))
+       key = response.json()["key"]
+       secret = response.json()["secret"]
+       link = BaseUrl + key
+       url = link 
+      return response
      except:
-      raise UknownError("Uknown Error, Probably Server Does Not Respond")
+      raise
+      raise errors.UknownError("Uknown Error, Probably Server Does Not Respond")
     else:
-     raise InvalidArgs(f"Need Str not {str(type(arguments))}")
+     raise errors.InvalidArgs(f"Need Str not {str(type(arguments))}")
     
      
-def GetKey(Response):
-    if not isinstance(Response, requests.models.):
-        raise InvalidArgs(f"You need to put a dict, not a {str(type(Response))}")
-    else:
-        try:
-            return Response["key"]
-        except: 
-            raise UknownError("Uknown Error")
        
