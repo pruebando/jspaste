@@ -1,7 +1,7 @@
-from errors import *
+
 from vares import *
-import errors
-import vares
+from errors import *
+
 import requests
 
 def publish(arguments):
