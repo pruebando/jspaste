@@ -1,7 +1,6 @@
 
-from vares import *
-from errors import *
-
+from jspaste.vares import *
+from jspaste.errors import InvalidArgs, NotArgs, UnknownError
 import requests
 
 def publish(arguments):
@@ -17,9 +16,9 @@ def publish(arguments):
       return response
      except:
       raise
-      raise errors.UknownError("Uknown Error, Probably Server Does Not Respond")
+      raise UknownError("Uknown Error, Probably Server Does Not Respond")
     else:
-     raise errors.InvalidArgs(f"Need Str not {str(type(arguments))}")
+     raise InvalidArgs(f"Need Str not {str(type(arguments))}")
     
      
        

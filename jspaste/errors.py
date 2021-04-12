@@ -4,5 +4,3 @@ class InvalidArgs(Exception):
  pass
 class UnknownError(Exception):
  pass
-class NoServerResponse(Exception):
- pass

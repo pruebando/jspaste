@@ -1,20 +1,20 @@
-from errors import *
-from vares import *
-import errors 
+from jspaste.vares import *
+from jspaste.errors import InvalidArgs, NotArgs, UnknownError
+import requests
 import vares 
 import json
-import requests
+
 
 def delete(key, secret):
  if not isinstance(key, str):
-     raise errors.InvalidArgs(f"key needs to be str not {str(type(key))}")
+     raise InvalidArgs(f"key needs to be str not {str(type(key))}")
  else:
   if not isinstance(secret, str):
-      raise errors.InvalidArgs(f"secret needs to be str not {str(type(secret))}")
+      raise InvalidArgs(f"secret needs to be str not {str(type(secret))}")
   else:
    obtain = requests.get(f"{BaseUrl}documents/{key}")
    if obtain.status_code == 404:
-       raise errors.InvalidArgs("Invalid key")
+       raise InvalidArgs("Invalid key")
    else:
        headers = {"Secret": f"{secret}"}
        
@@ -23,5 +23,5 @@ def delete(key, secret):
            key = ao.json()["key"]
            deleted = ao.json()["eliminado"]
        if ao.status_code == 400:
-           raise errors.InvalidArgs("invalid secret code")
+           raise InvalidArgs("invalid secret code")
           

@@ -1,5 +1,4 @@
-#from jspaste.publish import *
-with open("pruba.txt", "w") as owo:
-    owo.write("😱😘🥰")
+from jspaste.publish import *
+print(publish(3).link)
     
     
