@@ -1,7 +1,7 @@
 from jspaste.vares import *
 from jspaste.errors import InvalidArgs, NotArgs, UnknownError
 import requests
-a
+
 def get(key):
     if isinstance(key, str):
         a = requests.get(f"{BaseUrl}documents/{key}")
