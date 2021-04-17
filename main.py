@@ -1,4 +1,4 @@
 from jspaste.publish import *
-print(publish(3).link)
+print(publish(3).url)
     
     
