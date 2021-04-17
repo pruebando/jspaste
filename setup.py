@@ -5,7 +5,7 @@ setup(
   version = '0.1',      
   license='MIT',        
   description = 'Api Wrapper Of Jspaste, https://jspaste.tnfangel.repl.co/',   
-  author = 'Pruebando',                   # Type in your name
+  author = 'Pruebando',                   
  
   url = 'https://github.com/pruebando/jspaste',   
   download_url = 'https://github.com/pruebando/jspaste/archive/refs/tags/0.1.tar.gz',   
