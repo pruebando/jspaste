@@ -1,8 +1,9 @@
 # [Jspaste](https://jspaste.tnfangel.repl.co)
 ## Index
-- Español(español)
-- [English](english)
+- [Español](#español)
+- [English](#english)
 
-# English  
-# Español
+# ENGLISH
+ 
+# ESPAÑOL
 
