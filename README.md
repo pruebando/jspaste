@@ -15,10 +15,11 @@
 
 
 
-**Instalacion**
->
-> Para instalar 
+## **Instalacion**
 
+Para instalar el paquete puedes directamente instalarlo desde GitHub 
+> pip install https://github.com/pruebando/jspaste/
+O proximamente
 
 
 
