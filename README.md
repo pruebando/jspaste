@@ -9,7 +9,7 @@
 
 ## Español
 
-1. Instalación
+1. [Instalación](#instalacion)
 2. Funciones
 
 
@@ -20,6 +20,10 @@
 Para instalar el paquete puedes directamente instalarlo desde GitHub 
 > pip install https://github.com/pruebando/jspaste/
 O proximamente
+> pip install jspaste
+**actualmente no funciona, en un futuro a lo mejor**
+
+## **
 
 
 
