@@ -19,12 +19,8 @@
 
 Para instalar el paquete puedes directamente instalarlo desde GitHub 
 > pip install https://github.com/pruebando/jspaste/
-
-O proximamente
-
+O
 > pip install jspaste
-**actualmente no funciona, en un futuro a lo mejor**
-
 ## **
 
 
