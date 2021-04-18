@@ -1,7 +1,7 @@
 from distutils.core import setup
 setup(
   name = 'jspaste.py',         
-  packages = ['jspaste.py'],   
+  packages = ['jspaste'],   
   version = '0.1',      
   license='MIT',        
   description = 'Api Wrapper Of Jspaste, https://jspaste.tnfangel.repl.co/',   
@@ -10,9 +10,7 @@ setup(
   url = 'https://github.com/pruebando/jspaste',   
   download_url = 'https://github.com/pruebando/jspaste/archive/refs/tags/0.1.tar.gz',   
   keywords = ['Pastebin', 'Jspaste', 'Api Wrapper'],   
-  install_requires=[           
-          'requests'
-      ],
+  install_requires=[],
   classifiers=[
     'Development Status :: 3 - Alpha',    
     'Intended Audience :: Developers',      
