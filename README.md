@@ -4,9 +4,11 @@
 
 - [English](#english)
 
-# English
+## English
 
-# Español
+
+## Español
+### Instalacion
 
 
 
