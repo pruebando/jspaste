@@ -11,6 +11,7 @@ setup(
   download_url = 'https://github.com/pruebando/jspaste/archive/refs/tags/0.1.tar.gz',   
   keywords = ['Pastebin', 'Jspaste', 'Api Wrapper'],   
   install_requires=[],
+  setup_requires=["wheel"],
   classifiers=[
     'Development Status :: 3 - Alpha',    
     'Intended Audience :: Developers',      
