@@ -8,7 +8,14 @@
 
 
 ## Español
-> # **Instalacion**
+
+1. Instalación
+2. Funciones
+
+
+
+
+**Instalacion**
 >
 > Para instalar 
 
