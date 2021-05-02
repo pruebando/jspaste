@@ -25,7 +25,8 @@ O
 > pip install jspaste.py
 
 ## **Usaje**
-[Importarlo](#Import)
+[Importar el paquete](#Import)
+[Publicar texto](#Publicar)
 
 # Import
 ```py
@@ -33,6 +34,9 @@ import jspaste
 ```
 
 # Publicar 
+```py
+from jspaste import publish
+publish("texto a enviar")
+```
 
-
-
+# Eliminar
