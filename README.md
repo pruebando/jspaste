@@ -25,9 +25,13 @@ O
 > pip install jspaste.py
 
 ## **Usaje**
-[Importar el paquete](#Import)
+- [Importar el paquete](#Import)
 
-[Publicar texto](#Publicar)
+- [Publicar texto](#Publicar)
+
+- [Eliminar texto](#Eliminar)
+
+- [Obtener texto de URL](#Obtener)
 
 # Import
 ```py
