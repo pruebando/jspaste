@@ -27,7 +27,7 @@ O
 ## **Usaje**
 [Importarlo](#Import)
 
-#Import
+# Import
 ```py
 import jspaste
 ```
