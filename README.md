@@ -33,15 +33,15 @@ O
 
 - [Obtener texto de URL](#Obtener)
 
-# Import
+## Import
 ```py
 import jspaste
 ```
 
-# Publicar 
+## Publicar 
 ```py
 from jspaste import publish
 publish("texto a enviar")
 ```
 
-# Eliminar
+## Eliminar
