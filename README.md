@@ -10,7 +10,7 @@
 ## Español
 
 1. [Instalación](#instalacion)
-2. Funciones
+2. [Uso](#Usaje)
 
 
 
@@ -22,9 +22,15 @@ Para instalar el paquete puedes directamente instalarlo desde GitHub
 
 O
 
-> pip install jspaste
+> pip install jspaste.py
 
-## 
+## **Usaje**
+[Importarlo](#Import)
+
+#Import
+```py
+import jspaste
+```
 
 
 
