@@ -5,7 +5,7 @@ import requests
 
 def publish(arguments):
     if isinstance(arguments, str):
-     Content = f"/*Made With Jspaste.py Created By {Creator}*/\n \n{arguments}"
+     Content = f"{arguments}"
      try:
       class response:
        response = requests.post(BaseUrl+ "documents", data=Content.encode('utf-8'))
